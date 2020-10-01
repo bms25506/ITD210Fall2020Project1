@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* Body Styles */
+
+#title
+{
+	color: #004799;
+	text-decoration: none;
+	text-align: center;
+	
+}
+#intro
+{
+	display: block;
+	text-align: center;
+	margin: auto;
+	width: 50%;
+	
+}
+#picButtons
+{
+	display:flex;
+	flex-wrap: wrap;
+	padding-bottom: 50px;
+	
+}
+#contact
+{
+	flex: 30%;
+	padding:10px;
+	text-align:center;
+	position: relative;
+}
+#service
+{
+	flex: 30%;
+	padding:10px;
+	text-align:center;
+	position: relative;
+}
+#previous
+{
+	flex: 30%;
+	padding:10px;
+	text-align:center;
+	position: relative;
+}
+.centered
+{
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 20px;
+	padding:10px;
+}
