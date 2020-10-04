@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+/* Base Styles */
+
+
+*
+{
+	box-sizing: border-box;
+}
+*:before, *:after
+{
+	box-sizing: border-box;
+}
+
+html
+{
+	background:white;	
+}
+
+
+
+/* Body Styles */
+
+
+
+body
+{
+	width: 100%;
+	
+}
+html, body
+{
+	height: 100%;
+	position: relative;
+}
+nav img
+{
+	height: 80px;
+	width: 200px;
+}
+nav ul li:hover
+{
+	background-color: #C4EDF5;
+}
+
+/* Footer Styles */
+
+footer {
+   position: relative;
+   clear: both;
+   height: 25px;
+   bottom: 0px;
+   left: 0px;
+   margin-bottom: 0px;
+   width: 100%;
+   background-color: #E0E0E0;
+   font-size: 15px;
+   text-align: center;
+   padding: 5px 0px;   
+}
+
+
+/* Desktop Styles: 768px and greater */
+
+@media only screen and (min-width: 768px)
+{
+	/* Header Navigation Styles */
+
+	nav
+	{
+		width: 100%;
+		height: 80px;
+		background-color: #E0E0E0;
+	}
+	.container
+	{
+		width: 100%;
+		height: 80px;
+		background-color: #E0E0E0;
+	}
+
+
+	a.logo
+	{
+		display: inline;
+		display: block;
+		margin-left: 0px;
+		float: left;
+		width: 180px;
+		height: 80px;
+		
+	}
+	div.navbar-collapse.collapse
+	{
+		display: block;
+		width: 100%;
+	}
+	nav ul li
+	{
+		
+		border-left: 1px solid DarkGrey;
+		text-align: center;
+		width: 20%;
+		float: right;
+		
+	}
+	ul.nav.navbar-nav 
+	{
+		display: block;
+		float: right;
+		width: 70%;
+	}
+
+	ul.nav.navbar-nav > li > a 
+	{
+		
+		line-height: 50px;
+		padding: 5px;
+		
+	}
+
+
+}
