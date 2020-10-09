@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+/******** Header Styles *********/
+
+header > h1
+{
+	display: box;
+	color: #2d2e79;
+	text-align: center;
+}
+
+/******** Body Styles **********/
+
+/* Left Column */
+
+#left-column
+{
+	margin: 50px 0px;
+	float: left;
+	width:50%;
+	padding: 20px;
+	font-size:16px;
+	align-items: center;
+}
+#picture
+{
+	height: 300px;
+	width: 250px;
+	background-color: #E0E0E0;
+	border-radius: 50%;
+	align-self: center;
+	margin: auto;
+	
+}
+#left-column h2
+{
+	color: #587cc5;
+	text-align: center;
+}
+#left-column p
+{
+	width: 85%;
+	margin: auto;
+	padding: 5px;
+}
+
+/* Right Column */
+
+#right-column
+{
+	margin: 50px 0px;
+	float: left;
+	width:50%;
+	background-color: #E0E0E0;
+	padding: 10px;
+	font-size: 16px;
+}
+#right-column h2
+{
+	color: #587cc5;
+	text-align: center;
+}
+#contact-list
+{
+	width: 85%;
+	margin: auto;
+	padding: 5px;
+}
+
+/******* Responsive Styles *********/
+@media screen and (max-width: 768px) 
+{
+	#left-column, #right-column
+	{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+}
