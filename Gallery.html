@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+
+	<title>Aqua Care Pool Services LLC</title>
+
+	<link href="CSSpages/Base.css" rel="stylesheet" />
+	<link href="CSSpages/gallery.css" rel="stylesheet" />
+     <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	
+
+	
+  </head>
+  <body>
+		<nav class="navbar navbar-default">
+			<div class="container">
+			  <div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+				  <span class="sr-only">Toggle navigation</span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				</button>
+				<a class="logo" href="Home.html"><img src="Images/ACPS Logo.png" width="200px" height="105px"></img></a>
+			  </div>
+			  <div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+				  <li><a href="Home.html">Home</a></li>
+				  <li><a href="Services.html">Services</a></li>
+				  <li class="active"><a href="Gallery.html">Gallery</a></li>
+				  <li><a href="ContactUs.html">Contact Us</a></li>
+				  <li><a href="SocialMedia.html">Social Media</a></li>
+				</ul>
+			  </div><!--/.nav-collapse -->
+			</div>
+		</nav>
+		<br>
+
+		<div id="gallery-container">
+			<header>
+				<div id="title">
+					<h1>Gallery</h1>
+				</div>
+			</header>
+			<section id="intro" >
+				<p align="center">
+					Take a look at some of the work we have done.
+					
+				</p>
+			</section>
+			<div class="row"> 
+				<div class="column">
+					<img src="Images/IMG_4426.jpg" Style="Width=100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+					<img src="Images/IMG_5262.jpg" Style="Width=100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+					<img src="Images/IMG_5375.jpg" Style="Width=100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+					<img src="Images/IMG_4583.jpg" Style="Width=100%" onclick="openModal();currentSlide(13)" class="hover-shadow cursor">
+					<img src="Images/IMG_5502.jpg" Style="Width=100%" onclick="openModal();currentSlide(17)" class="hover-shadow cursor">
+			
+				</div>
+				<div class="column">
+					<img src="Images/IMG_4431.jpg" Style="Width=100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+					<img src="Images/IMG_5263.jpg" Style="Width=100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+					<img src="Images/IMG_5394.jpg" Style="Width=100%" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+					<img src="Images/IMG_4612.jpg" Style="Width=100%" onclick="openModal();currentSlide(14)" class="hover-shadow cursor">
+					<img src="Images/IMG_5672.jpg" Style="Width=100%" onclick="openModal();currentSlide(18)" class="hover-shadow cursor">
+		
+				</div>  
+				<div class="column">
+					<img src="Images/IMG_5619.jpg" Style="Width=100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+					<img src="Images/RenderedImage.jpg" Style="Width=100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+					<img src="Images/IMG_4850.jpg" Style="Width=100%" onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
+					<img src="Images/IMG_5563.jpg" Style="Width=100%" onclick="openModal();currentSlide(15)" class="hover-shadow cursor">
+					<img src="Images/IMG_5423.jpg" Style="Width=100%" onclick="openModal();currentSlide(19)" class="hover-shadow cursor">
+							
+					
+				</div>
+				<div class="column">
+					<img src="Images/IMG_5622.jpg" Style="Width=100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+					<img src="Images/IMG_4650.jpg" Style="Width=100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+					<img src="Images/IMG_4912.jpg" Style="Width=100%" onclick="openModal();currentSlide(12)" class="hover-shadow cursor">
+					<img src="Images/IMG_5425.jpg" Style="Width=100%" onclick="openModal();currentSlide(16)" class="hover-shadow cursor">
+					<img src="Images/IMG_5318.jpg" Style="Width=100%" onclick="openModal();currentSlide(20)" class="hover-shadow cursor">
+					
+				</div>
+			</div>
+		 
+		 
+			<div id="myModal" class="modal">
+				<span class="close cursor" onclick="closeModal()">&#215;</span>
+				<div class="modal-content">
+
+					<div class="mySlides">
+					  <div class="numbertext">1 / 20</div>
+					  <img src="Images/IMG_4426.jpg" ></img>
+					</div>
+
+					<div class="mySlides">
+					  <div class="numbertext">2 / 20</div>
+					  <img  src="Images/IMG_4431.jpg" >
+					</div>
+
+					<div class="mySlides">
+					  <div class="numbertext">3 / 20</div>
+					  <img src="Images/IMG_5619.jpg" >
+					</div>
+					
+					<div class="mySlides">
+					  <div class="numbertext">4 / 20</div>
+					  <img src="Images/IMG_5622.jpg" >
+					</div>
+					<div class="mySlides">
+					  <div class="numbertext">5 / 20</div>
+					  <img src="Images/IMG_5262.jpg" ></img>
+					</div>
+					<div class="mySlides">
+					  <div class="numbertext">6 / 20</div>
+					  <img src="Images/IMG_5263.jpg" >
+					</div>
+					<div class="mySlides">
+					  <div class="numbertext">7 / 20</div>
+					  <img src="Images/RenderedImage.jpg" >
+					</div>
+					<div class="mySlides">
+					  <div class="numbertext">8 / 20</div>
+					  <img src="Images/IMG_4650.jpg" >
+					</div>
+					<div class="mySlides">
+					  <div class="numbertext">9 / 20</div>
+					  <img src="Images/IMG_5375.jpg" >
+					</div>
+					<div class="mySlides">
+					  <div class="numbertext">10 / 20</div>
+					  <img src="Images/IMG_5394.jpg" >
+					</div>
+					<div class="mySlides">
+					  <div class="numbertext">11 / 20</div>
+					  <img src="Images/IMG_4850.jpg" >
+					</div>
+					<div class="mySlides">
+					  <div class="numbertext">12 / 20</div>
+					  <img src="Images/IMG_4912.jpg" >
+					</div>
+					<div class="mySlides">
+					  <div class="numbertext">13 / 20</div>
+					  <img src="Images/IMG_4583.jpg" >
+					</div>
+					<div class="mySlides">
+					  <div class="numbertext">14 / 20</div>
+					  <img src="Images/IMG_4612.jpg" >
+					</div>
+					<div class="mySlides">
+					  <div class="numbertext">15 / 20</div>
+					  <img src="Images/IMG_5563.jpg" >
+					</div>
+					<div class="mySlides">
+					  <div class="numbertext">16 / 20</div>
+					  <img src="Images/IMG_5425.jpg" >
+					</div>
+					<div class="mySlides">
+					  <div class="numbertext">17 / 20</div>
+					  <img src="Images/IMG_5502.jpg" >
+					</div>
+					<div class="mySlides">
+					  <div class="numbertext">18 / 20</div>
+					  <img src="Images/IMG_5672.jpg" >
+					</div>
+					<div class="mySlides">
+					  <div class="numbertext">19 / 20</div>
+					  <img src="Images/IMG_5423.jpg" >
+					</div>
+					<div class="mySlides">
+					  <div class="numbertext">20 / 20</div>
+					  <img src="Images/IMG_5318.jpg" >
+					</div>
+				
+					<a class="prev" onclick="plusSlides(-1)" alt="prev">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)"alt="next">&#10095;</a>
+
+					<div class="caption-container">
+					  <p id="caption"></p>
+					</div>
+
+	
+					<div class="column">
+					  <img class="demo cursor" src="Images/IMG_4426.jpg" style="width:25%" onclick="currentSlide(1)" >
+					</div>
+					<div class="column">
+					  <img class="demo cursor" src="Images/IMG_4431.jpg" style="width:25%" onclick="currentSlide(2)" >
+					</div>
+					<div class="column">
+					  <img class="demo cursor" src="Images/IMG_5619.jpg" style="width:25%" onclick="currentSlide(3)" >
+					</div>
+					<div class="column">
+					  <img class="demo cursor" src="Images/IMG_5622.jpg" style="width:25%" onclick="currentSlide(4)" >
+					</div>
+					<div class="column">
+					  <img class="demo cursor" src="Images/IMG_5262.jpg" style="width:25%" onclick="currentSlide(5)" >
+					</div>
+					<div class="column">
+					  <img class="demo cursor" src="Images/IMG_5263.jpg" style="width:25%" onclick="currentSlide(6)" >
+					</div>
+					<div class="column">
+					  <img class="demo cursor" src="Images/RenderedImage.jpg" style="width:25%" onclick="currentSlide(7)" >
+					</div>
+					<div class="column">
+					  <img class="demo cursor" src="Images/IMG_4650.jpg" style="width:25%" onclick="currentSlide(8)" >
+					</div>
+					<div class="column">
+					  <img class="demo cursor" src="Images/IMG_5375.jpg" style="width:25%" onclick="currentSlide(9)" >
+					</div>
+					<div class="column">
+					  <img class="demo cursor" src="Images/IMG_5394.jpg" style="width:25%" onclick="currentSlide(10)" >
+					</div>
+					<div class="column">
+					  <img class="demo cursor" src="Images/IMG_4850.jpg" style="width:25%" onclick="currentSlide(11)" >
+					</div>
+					<div class="column">
+					  <img class="demo cursor" src="Images/IMG_4912.jpg" style="width:25%" onclick="currentSlide(12)" >
+					</div>
+					<div class="column">
+					  <img class="demo cursor" src="Images/IMG_4583.jpg" style="width:25%" onclick="currentSlide(13)" >
+					</div>
+					<div class="column">
+					  <img class="demo cursor" src="Images/IMG_4612.jpg" style="width:25%" onclick="currentSlide(14)" >
+					</div>
+					<div class="column">
+					  <img class="demo cursor" src="Images/IMG_5563.jpg" style="width:25%" onclick="currentSlide(15)" >
+					</div>
+					<div class="column">
+					  <img class="demo cursor" src="Images/IMG_5425.jpg" style="width:25%" onclick="currentSlide(16)" >
+					</div>
+					<div class="column">
+					  <img class="demo cursor" src="Images/IMG_5502.jpg" style="width:25%" onclick="currentSlide(17)" >
+					</div>
+					<div class="column">
+					  <img class="demo cursor" src="Images/IMG_5672.jpg" style="width:25%" onclick="currentSlide(18)" >
+					</div>
+					<div class="column">
+					  <img class="demo cursor" src="Images/IMG_5423.jpg" style="width:25%" onclick="currentSlide(19)" >
+					</div>
+					<div class="column">
+					  <img class="demo cursor" src="Images/IMG_5318.jpg" style="width:25%" onclick="currentSlide(20)" >
+					</div> <!--  -->
+			  </div>
+			</div>
+
+		<script>
+			function openModal() {
+			  document.getElementById("myModal").style.display = "block";
+			}
+
+			function closeModal() {
+			  document.getElementById("myModal").style.display = "none";
+			}
+
+			var slideIndex = 1;
+			showSlides(slideIndex);
+
+			function plusSlides(n) {
+			  showSlides(slideIndex += n);
+			}
+
+			function currentSlide(n) {
+			  showSlides(slideIndex = n);
+			}
+
+			function showSlides(n) {
+			  var i;
+			  var slides = document.getElementsByClassName("mySlides");
+			  var dots = document.getElementsByClassName("demo");
+			  var captionText = document.getElementById("caption");
+			  if (n > slides.length) {slideIndex = 1}
+			  if (n < 1) {slideIndex = slides.length}
+			  for (i = 0; i < slides.length; i++) {
+				  slides[i].style.display = "none";
+			  }
+			  for (i = 0; i < dots.length; i++) {
+				  dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";
+			  dots[slideIndex-1].className += " active";
+			  captionText.innerHTML = dots[slideIndex-1].alt;
+			}
+		</script>
+		<footer>
+					&copy Aqua Care Pool Services LLC
+		</footer>
+	</div>
+	 
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
