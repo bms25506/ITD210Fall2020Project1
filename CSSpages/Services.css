@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+/******** Header Styles ********/
+#service-header
+{
+	position: relative;
+}
+#title
+{
+	
+	position: absolute;
+	top: 40%;
+	left: 5%;
+	background-color: #E0E0E0;
+	opacity: 80%;
+	color: #2d2e79;
+	padding: 0px 20px;
+}
+
+/******** Body Styles *********/
+#services-container
+{
+	box-sizing: border-box;
+}
+/* Column Styles */
+
+#left-column
+{
+	margin: 50px 0px;
+	float: left;
+	width:30%;
+	padding: 10px;
+	background-color: #E0E0E0;
+}
+#right-column
+{
+	margin: 50px 0px;
+	float: left;
+	width:70%;
+	padding: 10px;
+	font-size: 16px;
+}
+
+#left-column h2
+{
+	color: #587cc5;
+	text-align: center;
+}
+
+#right-column h2
+{
+	color: #587cc5;
+	text-align: center;
+}
+#left-column ul > li > a
+{
+	text-decoration: none;
+	font-size: 16px;
+	color: black;
+}
+#left-column ul > li > a:hover
+{
+	background-color: #C4EDF5;
+}
+#right-column p
+{
+	width: 85%;
+	margin: auto;
+	padding: 5px;
+
+}
+
+/******* Responsive Styles *********/
+@media screen and (max-width: 768px) 
+{
+	#left-column, #right-column
+	{
+		width: 100%;
+	}
+}
